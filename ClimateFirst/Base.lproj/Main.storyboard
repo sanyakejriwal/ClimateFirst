@@ -38,6 +38,9 @@
                                 <state key="normal" title="Climate Change Basics!">
                                     <color key="titleColor" red="0.0" green="0.14117647058823529" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Z2u-9N-f8l" kind="presentation" modalPresentationStyle="fullScreen" id="L3M-D5-aZd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCI-QF-Qdf">
                                 <rect key="frame" x="81" y="747" width="255" height="44"/>
@@ -49,7 +52,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pw0-4U-Fnd">
-                                <rect key="frame" x="81" y="658" width="255" height="44"/>
+                                <rect key="frame" x="81" y="654" width="255" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76626521349999999" green="0.86029666660000004" blue="0.79623752830000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="23"/>
@@ -66,9 +69,39 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="88.392857142857139"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="IbE-Bc-Uvx">
+            <objects>
+                <viewController id="Z2u-9N-f8l" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Snl-Rg-GaI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="climate first (1)" translatesAutoresizingMaskIntoConstraints="NO" id="Jmi-JC-1jO">
+                                <rect key="frame" x="20" y="50" width="109" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Change Basics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3e-we-ZKI">
+                                <rect key="frame" x="100" y="211" width="215" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mvh-ip-ylt"/>
+                        <color key="backgroundColor" red="0.77555423970000004" green="0.86286556719999996" blue="0.79708468909999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="O27-yt-9Dp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8bd-HA-rUy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="860.86956521739137" y="87.723214285714278"/>
+        </scene>
     </scenes>
     <resources>
         <image name="9e81a5ecfd915dd0e4727f3c62c9d059" width="564" height="868"/>
         <image name="climate first" width="500" height="500"/>
+        <image name="climate first (1)" width="500" height="500"/>
     </resources>
 </document>
