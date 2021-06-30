@@ -366,122 +366,192 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1IL-aD-yUY">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aE-Sr-9fQ">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aE-Sr-9fQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="149" height="138"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button" image="climate_first__2_-removebg-preview"/>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="fMT-IX-nat"/>
+                                                </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Book Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWn-S7-aYT">
-                                                <rect key="frame" x="96" y="118" width="223" height="41"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWn-S7-aYT">
+                                                <rect key="frame" x="95.5" y="118" width="223" height="41"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
                                                 <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Wp-iq-uUM">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Wp-iq-uUM">
                                                 <rect key="frame" x="185" y="231" width="183" height="157"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text"> New York 2140 is a Science Fiction book. The novel is set in a New York City that has been flooded and altered by rising water.</string>
                                                 <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NY2140" translatesAutoresizingMaskIntoConstraints="NO" id="kiX-rq-Ybk">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NY2140" translatesAutoresizingMaskIntoConstraints="NO" id="kiX-rq-Ybk">
                                                 <rect key="frame" x="34" y="207" width="132" height="205"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="205" id="lxb-AI-pic"/>
+                                                    <constraint firstAttribute="width" constant="132" id="tGv-SG-oUv"/>
+                                                </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gretaThunberg" translatesAutoresizingMaskIntoConstraints="NO" id="6ms-25-cfw">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gretaThunberg" translatesAutoresizingMaskIntoConstraints="NO" id="6ms-25-cfw">
                                                 <rect key="frame" x="236" y="440" width="132" height="205"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="This novel a collection of eleven speeches which she has written and presented about global warming and the climate crisis" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53h-Tm-kQd">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="This novel a collection of eleven speeches which she has written and presented about global warming and the climate crisis" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53h-Tm-kQd">
                                                 <rect key="frame" x="34" y="464" width="183" height="157"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="183" id="l1o-eR-t0h"/>
+                                                    <constraint firstAttribute="height" constant="157" id="rPK-HD-sd5"/>
+                                                </constraints>
                                                 <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenNewDeal" translatesAutoresizingMaskIntoConstraints="NO" id="l52-zp-ShI">
-                                                <rect key="frame" x="34" y="668" width="132" height="205"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenNewDeal" translatesAutoresizingMaskIntoConstraints="NO" id="l52-zp-ShI">
+                                                <rect key="frame" x="34" y="668" width="132" height="192"/>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OnN-b1-UiP">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OnN-b1-UiP">
                                                 <rect key="frame" x="185" y="682" width="183" height="177"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="177" id="PSC-8U-SIn"/>
+                                                </constraints>
                                                 <string key="text">This novel makes the case for a Green New Deal—explaining how bold climate action can be a blueprint for a just and thriving society.</string>
                                                 <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Link Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAI-fa-BMb">
-                                                <rect key="frame" x="104" y="931" width="207" height="41"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Link Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAI-fa-BMb">
+                                                <rect key="frame" x="103.5" y="931" width="207" height="41"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
                                                 <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Below are a few links to various websites to learn more about climate change. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2j5-Pz-ky0">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Below are a few links to various websites to learn more about climate change. " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2j5-Pz-ky0">
                                                 <rect key="frame" x="87" y="980" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="128" id="2y9-0o-zY1"/>
+                                                </constraints>
                                                 <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Link to United Nations - Climate Action" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfr-Pk-FuE">
-                                                <rect key="frame" x="67" y="1215" width="281" height="62"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Link to National Centers for Environmental Information" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WOz-4C-jP1">
-                                                <rect key="frame" x="67" y="1088" width="281" height="62"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Link to United Nations - Climate Action" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfr-Pk-FuE">
+                                                <rect key="frame" x="67" y="1215" width="280" height="62"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://www.ncdc.noaa.gov/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a44-MX-voI">
-                                                <rect key="frame" x="102" y="1158" width="215" height="24"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                                <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://www.un.org/en/climatechange/" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hfm-FW-DXM">
-                                                <rect key="frame" x="42" y="1285" width="334" height="24"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                                <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9q-Ko-muZ">
-                                                <rect key="frame" x="186" y="1567" width="42" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Link to Intergovernmental Panel of Climate Change" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1M4-gu-n1D">
-                                                <rect key="frame" x="87" y="1344" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <color key="textColor" systemColor="labelColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Link to Intergovernmental Panel of Climate Change" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1M4-gu-n1D">
+                                                <rect key="frame" x="67" y="1348" width="280" height="62"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="62" id="Uvy-aF-PgN"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Link to National Centers for Environmental Information" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOz-4C-jP1">
+                                                <rect key="frame" x="67" y="1088" width="280" height="62"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="62" id="aic-7P-CYH"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="https://www.ncdc.noaa.gov/" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KSk-rO-2An">
+                                                <rect key="frame" x="17" y="1150" width="380" height="41"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="https://www.un.org/en/climatechange/" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WDJ-uL-qwE">
+                                                <rect key="frame" x="17" y="1276" width="380" height="41"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="41" id="klm-5l-ata"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="https://www.ipcc.ch/" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NLE-cA-tTq">
+                                                <rect key="frame" x="17" y="1418" width="380" height="41"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="41" id="rJ6-dv-YmR"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                             </textView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.75686274509803919" green="0.8678765893" blue="0.79214864969999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="54P-0v-TEh"/>
+                                            <constraint firstItem="pAI-fa-BMb" firstAttribute="centerX" secondItem="1IL-aD-yUY" secondAttribute="centerX" id="1c9-fr-d6p"/>
+                                            <constraint firstAttribute="trailing" secondItem="2Wp-iq-uUM" secondAttribute="trailing" constant="46" id="2o2-qK-yYl"/>
+                                            <constraint firstItem="pAI-fa-BMb" firstAttribute="centerX" secondItem="dfr-Pk-FuE" secondAttribute="centerX" id="3hL-U7-FPa"/>
+                                            <constraint firstAttribute="height" constant="1600" id="54P-0v-TEh"/>
+                                            <constraint firstItem="2j5-Pz-ky0" firstAttribute="leading" secondItem="1IL-aD-yUY" secondAttribute="leading" constant="87" id="6LW-oY-u6M"/>
+                                            <constraint firstItem="kiX-rq-Ybk" firstAttribute="top" secondItem="1IL-aD-yUY" secondAttribute="top" constant="207" id="9j4-dW-Y1P"/>
+                                            <constraint firstItem="1M4-gu-n1D" firstAttribute="top" secondItem="dfr-Pk-FuE" secondAttribute="bottom" constant="71" id="A0F-pK-o1B"/>
+                                            <constraint firstItem="6ms-25-cfw" firstAttribute="leading" secondItem="53h-Tm-kQd" secondAttribute="trailing" constant="19" id="AH0-lm-e3Z"/>
+                                            <constraint firstItem="WOz-4C-jP1" firstAttribute="centerX" secondItem="2j5-Pz-ky0" secondAttribute="centerX" id="AY3-eM-z3E"/>
+                                            <constraint firstItem="kiX-rq-Ybk" firstAttribute="centerY" secondItem="2Wp-iq-uUM" secondAttribute="centerY" id="Ae6-Gz-1BQ"/>
+                                            <constraint firstItem="2Wp-iq-uUM" firstAttribute="trailing" secondItem="6ms-25-cfw" secondAttribute="trailing" id="D8G-MI-xxj"/>
+                                            <constraint firstItem="2j5-Pz-ky0" firstAttribute="centerX" secondItem="KSk-rO-2An" secondAttribute="centerX" id="G1V-Dx-7Fq"/>
+                                            <constraint firstAttribute="bottom" secondItem="l52-zp-ShI" secondAttribute="bottom" constant="740" id="H0t-Jx-slf"/>
+                                            <constraint firstItem="2Wp-iq-uUM" firstAttribute="trailing" secondItem="OnN-b1-UiP" secondAttribute="trailing" id="Jx0-ha-XfR"/>
+                                            <constraint firstItem="6ms-25-cfw" firstAttribute="top" secondItem="2Wp-iq-uUM" secondAttribute="bottom" constant="52" id="Ka0-PU-bXo"/>
+                                            <constraint firstItem="pAI-fa-BMb" firstAttribute="centerX" secondItem="1M4-gu-n1D" secondAttribute="centerX" id="Lz3-92-BEE"/>
+                                            <constraint firstAttribute="trailing" secondItem="4aE-Sr-9fQ" secondAttribute="trailing" constant="265" id="M05-m4-RgZ"/>
+                                            <constraint firstItem="WDJ-uL-qwE" firstAttribute="top" secondItem="KSk-rO-2An" secondAttribute="bottom" constant="85" id="NG7-XX-jBD"/>
+                                            <constraint firstItem="pAI-fa-BMb" firstAttribute="centerX" secondItem="NWn-S7-aYT" secondAttribute="centerX" id="NOS-TO-lRF"/>
+                                            <constraint firstItem="NLE-cA-tTq" firstAttribute="leading" secondItem="WDJ-uL-qwE" secondAttribute="leading" id="OAY-zR-ku2"/>
+                                            <constraint firstItem="dfr-Pk-FuE" firstAttribute="top" secondItem="KSk-rO-2An" secondAttribute="bottom" constant="24" id="Q7u-ty-uxr"/>
+                                            <constraint firstItem="2j5-Pz-ky0" firstAttribute="centerX" secondItem="WDJ-uL-qwE" secondAttribute="centerX" id="Qqe-2E-nOg"/>
+                                            <constraint firstItem="kiX-rq-Ybk" firstAttribute="leading" secondItem="1IL-aD-yUY" secondAttribute="leading" constant="34" id="Rx4-tU-vW9"/>
+                                            <constraint firstItem="kiX-rq-Ybk" firstAttribute="trailing" secondItem="l52-zp-ShI" secondAttribute="trailing" id="SCY-rH-ptT"/>
+                                            <constraint firstItem="OnN-b1-UiP" firstAttribute="top" secondItem="6ms-25-cfw" secondAttribute="bottom" constant="37" id="Seq-Lp-iZj"/>
+                                            <constraint firstItem="WOz-4C-jP1" firstAttribute="leading" secondItem="1M4-gu-n1D" secondAttribute="leading" id="UuD-FW-Bhs"/>
+                                            <constraint firstItem="kiX-rq-Ybk" firstAttribute="leading" secondItem="53h-Tm-kQd" secondAttribute="leading" id="UyI-Z1-bcc"/>
+                                            <constraint firstItem="kiX-rq-Ybk" firstAttribute="leading" secondItem="l52-zp-ShI" secondAttribute="leading" id="XEa-T4-Gwn"/>
+                                            <constraint firstItem="WOz-4C-jP1" firstAttribute="leading" secondItem="1IL-aD-yUY" secondAttribute="leading" constant="67" id="XfM-6h-Yg0"/>
+                                            <constraint firstItem="kiX-rq-Ybk" firstAttribute="top" secondItem="4aE-Sr-9fQ" secondAttribute="bottom" constant="69" id="YNy-Tz-Ys5"/>
+                                            <constraint firstItem="pAI-fa-BMb" firstAttribute="top" secondItem="OnN-b1-UiP" secondAttribute="bottom" constant="72" id="Z2n-Qi-lFb"/>
+                                            <constraint firstItem="53h-Tm-kQd" firstAttribute="top" secondItem="kiX-rq-Ybk" secondAttribute="bottom" constant="52" id="ZVA-37-sXA"/>
+                                            <constraint firstItem="2j5-Pz-ky0" firstAttribute="top" secondItem="pAI-fa-BMb" secondAttribute="bottom" constant="8" id="a7d-mJ-UK8"/>
+                                            <constraint firstItem="2Wp-iq-uUM" firstAttribute="top" secondItem="NWn-S7-aYT" secondAttribute="bottom" constant="72" id="cZJ-Je-olS"/>
+                                            <constraint firstItem="4aE-Sr-9fQ" firstAttribute="top" secondItem="1IL-aD-yUY" secondAttribute="top" id="cl3-cs-hGd"/>
+                                            <constraint firstItem="NLE-cA-tTq" firstAttribute="top" secondItem="1M4-gu-n1D" secondAttribute="bottom" constant="8" id="fQU-Cw-k5j"/>
+                                            <constraint firstAttribute="bottom" secondItem="WOz-4C-jP1" secondAttribute="bottom" constant="450" id="fWM-RW-3Rt"/>
+                                            <constraint firstItem="2Wp-iq-uUM" firstAttribute="leading" secondItem="OnN-b1-UiP" secondAttribute="leading" id="idt-YO-FmH"/>
+                                            <constraint firstItem="kiX-rq-Ybk" firstAttribute="top" secondItem="NWn-S7-aYT" secondAttribute="bottom" constant="48" id="is3-oq-wLJ"/>
+                                            <constraint firstItem="pAI-fa-BMb" firstAttribute="centerX" secondItem="WOz-4C-jP1" secondAttribute="centerX" id="kSM-WK-psf"/>
+                                            <constraint firstItem="l52-zp-ShI" firstAttribute="top" secondItem="53h-Tm-kQd" secondAttribute="bottom" constant="47" id="kVP-Z3-BVX"/>
+                                            <constraint firstItem="53h-Tm-kQd" firstAttribute="centerY" secondItem="6ms-25-cfw" secondAttribute="centerY" id="m3C-WB-VWf"/>
+                                            <constraint firstItem="WOz-4C-jP1" firstAttribute="leading" secondItem="dfr-Pk-FuE" secondAttribute="leading" id="nVF-fy-3Gz"/>
+                                            <constraint firstItem="NLE-cA-tTq" firstAttribute="leading" secondItem="KSk-rO-2An" secondAttribute="leading" id="oJe-tJ-la3"/>
+                                            <constraint firstItem="2j5-Pz-ky0" firstAttribute="centerX" secondItem="NLE-cA-tTq" secondAttribute="centerX" id="q2v-p8-Aqh"/>
+                                            <constraint firstItem="1M4-gu-n1D" firstAttribute="top" secondItem="WDJ-uL-qwE" secondAttribute="bottom" constant="31" id="sKF-Sh-3PC"/>
+                                            <constraint firstItem="4aE-Sr-9fQ" firstAttribute="leading" secondItem="1IL-aD-yUY" secondAttribute="leading" id="sx2-AL-Ojk"/>
+                                            <constraint firstItem="pAI-fa-BMb" firstAttribute="centerX" secondItem="2j5-Pz-ky0" secondAttribute="centerX" id="tjx-XX-qpW"/>
+                                            <constraint firstItem="KSk-rO-2An" firstAttribute="top" secondItem="2j5-Pz-ky0" secondAttribute="bottom" constant="42" id="w9d-f7-vKz"/>
+                                            <constraint firstAttribute="bottom" secondItem="NLE-cA-tTq" secondAttribute="bottom" constant="141" id="xLo-cC-fhK"/>
+                                            <constraint firstItem="NLE-cA-tTq" firstAttribute="leading" secondItem="1IL-aD-yUY" secondAttribute="leading" constant="17" id="xuB-jZ-Dbw"/>
+                                            <constraint firstItem="2Wp-iq-uUM" firstAttribute="leading" secondItem="kiX-rq-Ybk" secondAttribute="trailing" constant="19" id="z6v-p4-GdA"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -771,7 +841,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="r0C-Wp-Ns9"/>
+        <segue reference="fMT-IX-nat"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2e1ax_vintage_entry_Rising-Seas-blog" width="600" height="266"/>
@@ -785,9 +855,6 @@
         <image name="forest-lungs-1" width="1078" height="516"/>
         <image name="greenNewDeal" width="1400" height="2146"/>
         <image name="gretaThunberg" width="1765" height="2560"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
