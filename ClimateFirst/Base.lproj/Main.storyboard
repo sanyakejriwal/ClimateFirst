@@ -312,14 +312,6 @@
                                 <rect key="frame" x="67" y="251" width="280" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6T-3L-XHE">
-                                <rect key="frame" x="61" y="451" width="293" height="273"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oil Piplines Effect on the Environment" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEe-jo-pOL">
                                 <rect key="frame" x="-39" y="144" width="474" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -327,6 +319,32 @@
                                 <color key="textColor" red="0.0" green="0.14117647058823529" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86H-ag-vPl">
+                                <rect key="frame" x="20" y="535" width="356" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Pipelines also affect the climate. The EPA found that because more pipless are built more oil is extracted. Which means more greenhouse gases are released. </string>
+                                <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhX-bw-xUe">
+                                <rect key="frame" x="29" y="685" width="356" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Furthermore, pipelines are a risk to the people that live by them. If the pipeline were to fail their water source could be contaminated. 
+</string>
+                                <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Failure to maintain the pipelines can lead to oil spills which directly affects the animals and their habitat" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6T-3L-XHE">
+                                <rect key="frame" x="29" y="444" width="356" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lGC-BG-YdC"/>
                         <color key="backgroundColor" red="0.77647058823529413" green="0.86274509803921573" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -344,27 +362,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdK-UR-CH2">
-                                <rect key="frame" x="49" y="69" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVj-Nh-Etl">
-                                <rect key="frame" x="186" y="119" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e0J-rE-ZkJ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1IL-aD-yUY">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="54P-0v-TEh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="1IL-aD-yUY" firstAttribute="leading" secondItem="Z7L-XB-SCd" secondAttribute="leading" id="Gmt-PB-0xL"/>
+                                    <constraint firstItem="1IL-aD-yUY" firstAttribute="top" secondItem="Z7L-XB-SCd" secondAttribute="top" id="I1j-Ok-4T3"/>
+                                    <constraint firstItem="1IL-aD-yUY" firstAttribute="width" secondItem="5xs-By-Jus" secondAttribute="width" id="QaF-OO-ual"/>
+                                    <constraint firstItem="1IL-aD-yUY" firstAttribute="trailing" secondItem="Z7L-XB-SCd" secondAttribute="trailing" id="X9T-W0-75Y"/>
+                                    <constraint firstItem="1IL-aD-yUY" firstAttribute="bottom" secondItem="Z7L-XB-SCd" secondAttribute="bottom" id="xYh-PS-tnf"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Z7L-XB-SCd"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="5xs-By-Jus"/>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RfT-pG-rLe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="e0J-rE-ZkJ" secondAttribute="bottom" id="2a6-4P-Kjp"/>
+                            <constraint firstItem="e0J-rE-ZkJ" firstAttribute="trailing" secondItem="RfT-pG-rLe" secondAttribute="trailing" id="aHp-U2-YUL"/>
+                            <constraint firstItem="e0J-rE-ZkJ" firstAttribute="leading" secondItem="RfT-pG-rLe" secondAttribute="leading" id="g57-M6-qVF"/>
+                            <constraint firstItem="e0J-rE-ZkJ" firstAttribute="top" secondItem="dFV-nw-y3e" secondAttribute="top" id="pdw-Zc-pOX"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rbc-MV-n25"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5LA-ix-TvL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-967" y="840"/>
+            <point key="canvasLocation" x="-846.37681159420299" y="862.5"/>
         </scene>
         <!--Rising Sea Levels Page View Controller-->
         <scene sceneID="UsK-NS-bcW">
@@ -625,7 +658,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Vb2-NA-JSe"/>
+        <segue reference="r0C-Wp-Ns9"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2e1ax_vintage_entry_Rising-Seas-blog" width="600" height="266"/>
@@ -636,9 +669,6 @@
         <image name="climate_first__3_-removebg-preview" width="500" height="500"/>
         <image name="daplImage" width="1600" height="900"/>
         <image name="forest-lungs-1" width="1078" height="516"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
