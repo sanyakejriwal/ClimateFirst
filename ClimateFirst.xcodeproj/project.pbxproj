@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57009A44268CDFB200B135CB /* resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57009A43268CDFB200B135CB /* resources.swift */; };
 		8FF2736B268BB9CD0077D440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF2736A268BB9CD0077D440 /* AppDelegate.swift */; };
 		8FF2736D268BB9CD0077D440 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF2736C268BB9CD0077D440 /* SceneDelegate.swift */; };
 		8FF2736F268BB9CD0077D440 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF2736E268BB9CD0077D440 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57009A43268CDFB200B135CB /* resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resources.swift; sourceTree = "<group>"; };
 		8FF27367268BB9CD0077D440 /* ClimateFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF2736A268BB9CD0077D440 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FF2736C268BB9CD0077D440 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				8FF27373268BB9CD0077D440 /* ClimateFirst.xcdatamodeld */,
 				8FF27381268C28D80077D440 /* WaterConservationViewController.swift */,
 				8FF27383268C31930077D440 /* TipsViewController.swift */,
+				57009A43268CDFB200B135CB /* resources.swift */,
 			);
 			path = ClimateFirst;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				8FF2736B268BB9CD0077D440 /* AppDelegate.swift in Sources */,
 				8FF27384268C31930077D440 /* TipsViewController.swift in Sources */,
 				8FF27382268C28D80077D440 /* WaterConservationViewController.swift in Sources */,
+				57009A44268CDFB200B135CB /* resources.swift in Sources */,
 				A4C76B05268BE3990076902C /* BasicInfoPageViewController.swift in Sources */,
 				8FF2736D268BB9CD0077D440 /* SceneDelegate.swift in Sources */,
 			);
