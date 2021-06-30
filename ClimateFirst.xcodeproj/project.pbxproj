@@ -14,10 +14,10 @@
 		8FF27375268BB9CD0077D440 /* ClimateFirst.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FF27373268BB9CD0077D440 /* ClimateFirst.xcdatamodeld */; };
 		8FF27377268BB9E00077D440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF27376268BB9E00077D440 /* Assets.xcassets */; };
 		8FF2737A268BB9E00077D440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF27378268BB9E00077D440 /* LaunchScreen.storyboard */; };
+		8FF27382268C28D80077D440 /* WaterConservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF27381268C28D80077D440 /* WaterConservationViewController.swift */; };
+		8FF27384268C31930077D440 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF27383268C31930077D440 /* TipsViewController.swift */; };
 		A4C76B05268BE3990076902C /* BasicInfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C76B04268BE3990076902C /* BasicInfoPageViewController.swift */; };
 		A4C76B07268BE4880076902C /* OilPipelinePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C76B06268BE4880076902C /* OilPipelinePageViewController.swift */; };
-		A4C76B09268BE4BA0076902C /* WaterConservationPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C76B08268BE4BA0076902C /* WaterConservationPageViewController.swift */; };
-		A4C76B0B268BE4D30076902C /* DeforestationPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C76B0A268BE4D30076902C /* DeforestationPageViewController.swift */; };
 		A4C76B0D268BE4EA0076902C /* RisingSeaLevelsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C76B0C268BE4EA0076902C /* RisingSeaLevelsPageViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,10 +31,10 @@
 		8FF27376268BB9E00077D440 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FF27379268BB9E00077D440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FF2737B268BB9E00077D440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF27381268C28D80077D440 /* WaterConservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterConservationViewController.swift; sourceTree = "<group>"; };
+		8FF27383268C31930077D440 /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
 		A4C76B04268BE3990076902C /* BasicInfoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInfoPageViewController.swift; sourceTree = "<group>"; };
 		A4C76B06268BE4880076902C /* OilPipelinePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OilPipelinePageViewController.swift; sourceTree = "<group>"; };
-		A4C76B08268BE4BA0076902C /* WaterConservationPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterConservationPageViewController.swift; sourceTree = "<group>"; };
-		A4C76B0A268BE4D30076902C /* DeforestationPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeforestationPageViewController.swift; sourceTree = "<group>"; };
 		A4C76B0C268BE4EA0076902C /* RisingSeaLevelsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RisingSeaLevelsPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,14 +73,14 @@
 				8FF2736E268BB9CD0077D440 /* ViewController.swift */,
 				8FF27370268BB9CD0077D440 /* Main.storyboard */,
 				A4C76B0C268BE4EA0076902C /* RisingSeaLevelsPageViewController.swift */,
-				A4C76B0A268BE4D30076902C /* DeforestationPageViewController.swift */,
-				A4C76B08268BE4BA0076902C /* WaterConservationPageViewController.swift */,
 				A4C76B06268BE4880076902C /* OilPipelinePageViewController.swift */,
 				A4C76B04268BE3990076902C /* BasicInfoPageViewController.swift */,
 				8FF27376268BB9E00077D440 /* Assets.xcassets */,
 				8FF27378268BB9E00077D440 /* LaunchScreen.storyboard */,
 				8FF2737B268BB9E00077D440 /* Info.plist */,
 				8FF27373268BB9CD0077D440 /* ClimateFirst.xcdatamodeld */,
+				8FF27381268C28D80077D440 /* WaterConservationViewController.swift */,
+				8FF27383268C31930077D440 /* TipsViewController.swift */,
 			);
 			path = ClimateFirst;
 			sourceTree = "<group>";
@@ -157,11 +157,11 @@
 			files = (
 				A4C76B07268BE4880076902C /* OilPipelinePageViewController.swift in Sources */,
 				8FF27375268BB9CD0077D440 /* ClimateFirst.xcdatamodeld in Sources */,
-				A4C76B09268BE4BA0076902C /* WaterConservationPageViewController.swift in Sources */,
 				A4C76B0D268BE4EA0076902C /* RisingSeaLevelsPageViewController.swift in Sources */,
-				A4C76B0B268BE4D30076902C /* DeforestationPageViewController.swift in Sources */,
 				8FF2736F268BB9CD0077D440 /* ViewController.swift in Sources */,
 				8FF2736B268BB9CD0077D440 /* AppDelegate.swift in Sources */,
+				8FF27384268C31930077D440 /* TipsViewController.swift in Sources */,
+				8FF27382268C28D80077D440 /* WaterConservationViewController.swift in Sources */,
 				A4C76B05268BE3990076902C /* BasicInfoPageViewController.swift in Sources */,
 				8FF2736D268BB9CD0077D440 /* SceneDelegate.swift in Sources */,
 			);

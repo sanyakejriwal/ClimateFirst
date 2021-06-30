@@ -1,13 +1,13 @@
 //
-//  DeforestationPageViewController.swift
+//  WaterConservationViewController.swift
 //  ClimateFirst
 //
-//  Created by Isha Gosalia on 6/29/21.
+//  Created by Sanya Kejriwal on 6/29/21.
 //
 
 import UIKit
 
-class DeforestationPageViewController: UIViewController {
+class WaterConservationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

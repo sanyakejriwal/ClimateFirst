@@ -1,13 +1,13 @@
 //
-//  WaterConservationPageViewController.swift
+//  TipsViewController.swift
 //  ClimateFirst
 //
-//  Created by Isha Gosalia on 6/29/21.
+//  Created by Sanya Kejriwal on 6/29/21.
 //
 
 import UIKit
 
-class WaterConservationPageViewController: UIViewController {
+class TipsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +17,7 @@ class WaterConservationPageViewController: UIViewController {
     
 
     /*
-    // MARK: - Navigation
+     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
