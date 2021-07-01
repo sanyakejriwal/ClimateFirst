@@ -74,13 +74,6 @@
                                 <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Climate Score is:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wj-Qx-Cjr">
-                                <rect key="frame" x="38" y="782" width="167" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBR-64-IRC">
                                 <rect key="frame" x="169" y="696" width="76" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -89,39 +82,66 @@
                                 <state key="normal" title="Done">
                                     <color key="titleColor" red="0.77647058820000003" green="0.86274509799999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="doneButton:" destination="C0q-Pf-DMc" eventType="touchUpInside" id="RTs-d6-PIw"/>
+                                </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2021-06-29_at_10.04.54_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="vly-v5-WdL">
-                                <rect key="frame" x="51" y="232" width="36" height="34"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9BS-B2-f3g">
+                                <rect key="frame" x="46" y="230" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2021-06-29_at_10.04.54_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Oke-76-68J">
-                                <rect key="frame" x="51" y="364" width="36" height="34"/>
+                                <color key="onTintColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6Rn-1z-EBd">
+                                <rect key="frame" x="46" y="295" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2021-06-29_at_10.04.54_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="qWL-p6-TxL">
-                                <rect key="frame" x="51" y="433" width="36" height="34"/>
+                                <color key="onTintColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="R8O-oG-k0F">
+                                <rect key="frame" x="46" y="364" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2021-06-29_at_10.04.54_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="3A8-dj-Slr">
-                                <rect key="frame" x="51" y="499" width="36" height="34"/>
+                                <color key="onTintColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BHN-Af-Z16">
+                                <rect key="frame" x="46" y="433" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2021-06-29_at_10.04.54_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="7k3-oi-Lcu">
-                                <rect key="frame" x="51" y="564" width="36" height="34"/>
+                                <color key="onTintColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZCj-Dj-QYr">
+                                <rect key="frame" x="46" y="499" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2021-06-29_at_10.04.54_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="M22-yb-svl">
-                                <rect key="frame" x="51" y="631" width="36" height="39"/>
+                                <color key="onTintColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HNs-kD-Z68">
+                                <rect key="frame" x="43" y="564" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2021-06-29_at_10.04.54_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="gXf-xU-UsF">
-                                <rect key="frame" x="51" y="295" width="36" height="34"/>
+                                <color key="onTintColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Bkv-cT-ZZN">
+                                <rect key="frame" x="46" y="631" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="onTintColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wj-Qx-Cjr">
+                                <rect key="frame" x="28" y="787" width="367" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="27"/>
+                                <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dI0-26-tpS"/>
                         <color key="backgroundColor" red="0.77647058823529413" green="0.86274509803921573" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="climateScore" destination="4wj-Qx-Cjr" id="MsH-ed-xai"/>
+                        <outlet property="tip1" destination="9BS-B2-f3g" id="wuA-Za-G1w"/>
+                        <outlet property="tip2" destination="6Rn-1z-EBd" id="1zj-zr-va6"/>
+                        <outlet property="tip3" destination="R8O-oG-k0F" id="msf-we-D4e"/>
+                        <outlet property="tip4" destination="BHN-Af-Z16" id="vNv-rF-hTm"/>
+                        <outlet property="tip5" destination="ZCj-Dj-QYr" id="bzU-ly-NgY"/>
+                        <outlet property="tip6" destination="HNs-kD-Z68" id="88o-ME-oXi"/>
+                        <outlet property="tip7" destination="Bkv-cT-ZZN" id="e8E-N9-bla"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K6Y-fA-9M8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -841,13 +861,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="fMT-IX-nat"/>
+        <segue reference="URc-FW-ba2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2e1ax_vintage_entry_Rising-Seas-blog" width="600" height="266"/>
         <image name="9e81a5ecfd915dd0e4727f3c62c9d059" width="564" height="868"/>
         <image name="NY2140" width="1000" height="1612"/>
-        <image name="Screen_Shot_2021-06-29_at_10.04.54_PM-removebg-preview" width="464" height="406"/>
         <image name="california-drought-1020x610" width="1020" height="610"/>
         <image name="climate_first__2_-removebg-preview" width="500" height="500"/>
         <image name="climate_first__3_-removebg-preview" width="500" height="500"/>
