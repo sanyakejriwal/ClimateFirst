@@ -779,6 +779,9 @@
                                 <rect key="frame" x="50" y="199" width="308" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="forest-lungs-1"/>
+                                <connections>
+                                    <action selector="deforestationPicButton:" destination="sks-5k-T7u" eventType="touchUpInside" id="k2W-ox-m4K"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mZL-ke-NJg"/>

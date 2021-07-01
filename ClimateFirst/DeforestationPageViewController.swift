@@ -15,7 +15,9 @@ class DeforestationPageViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func deforestationPicButton(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 
