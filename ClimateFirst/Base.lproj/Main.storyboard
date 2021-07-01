@@ -246,9 +246,6 @@
                                 <state key="normal" title="Water Conservation Information">
                                     <color key="titleColor" red="0.77647058820000003" green="0.86274509799999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="1Wf-tN-hUm" kind="presentation" modalPresentationStyle="fullScreen" id="dNu-eR-iFx"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O5t-Qo-8t3">
                                 <rect key="frame" x="60" y="658" width="309" height="46"/>
@@ -888,6 +885,9 @@
                                 <state key="normal" title="Water Conservation Information">
                                     <color key="titleColor" red="0.77647058820000003" green="0.86274509799999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="1Wf-tN-hUm" kind="presentation" modalPresentationStyle="fullScreen" id="IF9-cg-5Bi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEE-Yb-aIn">
                                 <rect key="frame" x="60" y="658" width="309" height="46"/>
@@ -898,7 +898,7 @@
                                     <color key="titleColor" red="0.77647058820000003" green="0.86274509799999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="sks-5k-T7u" kind="presentation" modalPresentationStyle="fullScreen" id="7lA-NV-uDR"/>
+                                    <segue destination="sks-5k-T7u" kind="presentation" modalPresentationStyle="fullScreen" id="UPa-Kk-CDe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bH6-Ir-cUT">
@@ -910,7 +910,7 @@
                                     <color key="titleColor" red="0.77647058820000003" green="0.86274509799999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dyU-ak-WG2" kind="presentation" modalPresentationStyle="fullScreen" id="G5Y-KS-6Xi"/>
+                                    <segue destination="dyU-ak-WG2" kind="presentation" modalPresentationStyle="fullScreen" id="Gvn-xI-aN5"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Change Basics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2N-Qh-Vc8">
@@ -929,7 +929,7 @@
                                     <color key="titleColor" red="0.77647058820000003" green="0.86274509799999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="laS-X1-GYc" kind="presentation" modalPresentationStyle="fullScreen" id="Dlu-bb-BRn"/>
+                                    <segue destination="laS-X1-GYc" kind="presentation" modalPresentationStyle="fullScreen" id="ikY-8v-3xV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is Climate Change?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ax1-vP-D7B">
@@ -968,9 +968,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="yjX-A0-fof"/>
-        <segue reference="UbA-Wx-E4Z"/>
-        <segue reference="fMT-IX-nat"/>
+        <segue reference="qAC-Nm-Bzd"/>
+        <segue reference="ikY-8v-3xV"/>
+        <segue reference="Vb2-NA-JSe"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2e1ax_vintage_entry_Rising-Seas-blog" width="600" height="266"/>
