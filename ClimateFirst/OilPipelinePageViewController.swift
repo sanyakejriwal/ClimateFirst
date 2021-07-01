@@ -16,12 +16,9 @@ class OilPipelinePageViewController: UIViewController {
     }
     var isClicked = false
     @IBOutlet weak var fact1: UITextView!
-    
     @IBOutlet weak var fact2: UITextView!
-    
     @IBOutlet weak var fact3: UITextView!
-    
-    @IBAction func pictureButton(_ sender: UIButton) {
+    @IBAction func oilPipelineButton(_ sender: UIButton) {
         if isClicked {
             fact1.isHidden = true
             fact2.isHidden = true

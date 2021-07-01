@@ -247,7 +247,7 @@
                                     <color key="titleColor" red="0.77647058820000003" green="0.86274509799999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1Wf-tN-hUm" kind="presentation" modalPresentationStyle="fullScreen" id="gH8-gW-JJf"/>
+                                    <segue destination="1Wf-tN-hUm" kind="presentation" modalPresentationStyle="fullScreen" id="dNu-eR-iFx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O5t-Qo-8t3">
@@ -258,9 +258,6 @@
                                 <state key="normal" title="Deforestation Information">
                                     <color key="titleColor" red="0.77647058820000003" green="0.86274509799999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="sks-5k-T7u" kind="presentation" modalPresentationStyle="fullScreen" id="y2r-2z-Up1"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQ5-5y-YOu">
                                 <rect key="frame" x="60" y="732" width="309" height="46"/>
@@ -270,9 +267,6 @@
                                 <state key="normal" title="Rising Sea Levels Information">
                                     <color key="titleColor" red="0.77647058820000003" green="0.86274509799999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="dyU-ak-WG2" kind="presentation" modalPresentationStyle="fullScreen" id="Piq-BS-FaZ"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Change Basics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3e-we-ZKI">
                                 <rect key="frame" x="45" y="162" width="324" height="45"/>
@@ -343,22 +337,13 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Vb2-NA-JSe"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oil Piplines Effect on the Environment" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEe-jo-pOL">
-                                <rect key="frame" x="-39" y="144" width="474" height="86"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oil Pipelines Effect on the Environment" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEe-jo-pOL">
+                                <rect key="frame" x="-13" y="135" width="441" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.14117647058823529" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86H-ag-vPl">
-                                <rect key="frame" x="20" y="535" width="356" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Pipelines also affect the climate. The EPA found that because more pipless are built more oil is extracted. Which means more greenhouse gases are released. </string>
-                                <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhX-bw-xUe">
                                 <rect key="frame" x="29" y="685" width="356" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -394,17 +379,26 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="daplImage"/>
                                 <connections>
-                                    <action selector="pictureButton:" destination="laS-X1-GYc" eventType="touchUpInside" id="S5L-b3-xMI"/>
+                                    <action selector="oilPipelineButton:" destination="laS-X1-GYc" eventType="touchUpInside" id="Sx3-5j-AWd"/>
                                 </connections>
                             </button>
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86H-ag-vPl">
+                                <rect key="frame" x="29" y="535" width="356" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Pipelines also affect the climate. The EPA found that because more pipless are built more oil is extracted. Which means more greenhouse gases are released. </string>
+                                <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lGC-BG-YdC"/>
                         <color key="backgroundColor" red="0.77647058823529413" green="0.86274509803921573" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="fact1" destination="x6T-3L-XHE" id="qff-vm-M5o"/>
-                        <outlet property="fact2" destination="86H-ag-vPl" id="jTB-xP-yga"/>
-                        <outlet property="fact3" destination="DhX-bw-xUe" id="cBz-es-9LP"/>
+                        <outlet property="fact1" destination="x6T-3L-XHE" id="Hf4-TN-Hd5"/>
+                        <outlet property="fact2" destination="86H-ag-vPl" id="H0K-rx-he0"/>
+                        <outlet property="fact3" destination="DhX-bw-xUe" id="bcJ-Yd-TSS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lg3-zd-pkD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -662,7 +656,7 @@
                                 <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9H-PS-8FV">
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9H-PS-8FV">
                                 <rect key="frame" x="52" y="211" width="311" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Global sea level rose about 8 inches (20 centimeters) in the last century. This rate has been increasing exponentially over the last century
@@ -671,7 +665,7 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgQ-na-SxQ">
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgQ-na-SxQ">
                                 <rect key="frame" x="49" y="363" width="316" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text"> As the climate changes, droughts, floods, melting glaciers, sea-level rise and storms intensify.
@@ -680,12 +674,7 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2e1ax_vintage_entry_Rising-Seas-blog" translatesAutoresizingMaskIntoConstraints="NO" id="EmD-tK-hC3">
-                                <rect key="frame" x="40" y="623" width="335" height="239"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YSB-jM-Tjy">
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YSB-jM-Tjy">
                                 <rect key="frame" x="42" y="488" width="331" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">In urban settings along coastlines around the world, rising seas threaten infrastructure necessary for local jobs and regional industries. </string>
@@ -706,10 +695,23 @@
                                     <segue destination="ZlF-Jc-org" kind="presentation" modalPresentationStyle="fullScreen" id="dfX-R1-Lds"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaX-J3-uOq">
+                                <rect key="frame" x="45" y="668" width="324" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="2e1ax_vintage_entry_Rising-Seas-blog"/>
+                                <connections>
+                                    <action selector="seaLevelsPicButton:" destination="dyU-ak-WG2" eventType="touchUpInside" id="2s9-QH-Nb0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="s5X-bG-rSF"/>
                         <color key="backgroundColor" red="0.77647058823529413" green="0.86274509803921573" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="fact1" destination="u9H-PS-8FV" id="UDK-SX-JWL"/>
+                        <outlet property="fact2" destination="WgQ-na-SxQ" id="VwR-6y-cB9"/>
+                        <outlet property="fact3" destination="YSB-jM-Tjy" id="hnF-mg-Jsb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fbp-Yk-p5G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -738,14 +740,14 @@
                                 <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="More than half the world’s tropical forests have been destroyed since the 1960s" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecs-Kx-Wew">
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="More than half the world’s tropical forests have been destroyed since the 1960s" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecs-Kx-Wew">
                                 <rect key="frame" x="52" y="397" width="311" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGB-yY-Y4u">
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGB-yY-Y4u">
                                 <rect key="frame" x="50" y="506" width="316" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">There are many reasons why deforestation happens, including clearing fields for agriculture, timber, and infrastructure development</string>
@@ -753,7 +755,7 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iOH-bl-njH">
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iOH-bl-njH">
                                 <rect key="frame" x="43" y="671" width="331" height="303"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The loss of trees and other vegetation can cause flooding, increased greenhouse gases, and many problems for indigenous people and animals
@@ -787,6 +789,11 @@
                         <viewLayoutGuide key="safeArea" id="mZL-ke-NJg"/>
                         <color key="backgroundColor" red="0.77647058823529413" green="0.86274509803921573" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="fact1" destination="ecs-Kx-Wew" id="Idf-Ck-81g"/>
+                        <outlet property="fact2" destination="gGB-yY-Y4u" id="jfF-sp-Q71"/>
+                        <outlet property="fact3" destination="iOH-bl-njH" id="Ol2-O9-Sdy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7bM-DG-FR8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -807,14 +814,14 @@
                                 <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="A recent study found that 4.8 billion people will be at risk due to water stress by 2050 if business-as-usual persists." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="n2f-08-V1F">
-                                <rect key="frame" x="27" y="227" width="361" height="233"/>
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="A recent study found that 4.8 billion people will be at risk due to water stress by 2050 if business-as-usual persists." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2f-08-V1F">
+                                <rect key="frame" x="27" y="227" width="361" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4A7-Pk-Pkk">
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4A7-Pk-Pkk">
                                 <rect key="frame" x="27" y="367" width="361" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The World Economic Forum ranked water crises as number one in its 2015 assessment of global risks, with potential to cause damaging economic and social impacts across entire countries and sectors.</string>
@@ -847,18 +854,11 @@
                                 <rect key="frame" x="30" y="603" width="354" height="187"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="california-drought-1020x610"/>
-                                <connections>
-                                    <action selector="waterPicButton:" destination="1Wf-tN-hUm" eventType="touchUpInside" id="gi2-2b-wxg"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gze-hu-bKz"/>
                         <color key="backgroundColor" red="0.7532446384" green="0.86795067790000002" blue="0.79214864969999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <connections>
-                        <outlet property="fact1" destination="n2f-08-V1F" id="8UI-dq-ZSm"/>
-                        <outlet property="fact2" destination="4A7-Pk-Pkk" id="Fh4-hE-IpW"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sa0-KX-SlE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -889,6 +889,9 @@
                                 <state key="normal" title="Deforestation Information">
                                     <color key="titleColor" red="0.77647058820000003" green="0.86274509799999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="sks-5k-T7u" kind="presentation" modalPresentationStyle="fullScreen" id="7lA-NV-uDR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bH6-Ir-cUT">
                                 <rect key="frame" x="60" y="732" width="309" height="46"/>
@@ -898,6 +901,9 @@
                                 <state key="normal" title="Rising Sea Levels Information">
                                     <color key="titleColor" red="0.77647058820000003" green="0.86274509799999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="dyU-ak-WG2" kind="presentation" modalPresentationStyle="fullScreen" id="G5Y-KS-6Xi"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Change Basics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2N-Qh-Vc8">
                                 <rect key="frame" x="45" y="162" width="324" height="45"/>
@@ -914,6 +920,9 @@
                                 <state key="normal" title="Oil Pipeline Information">
                                     <color key="titleColor" red="0.77647058820000003" green="0.86274509799999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="laS-X1-GYc" kind="presentation" modalPresentationStyle="fullScreen" id="Dlu-bb-BRn"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is Climate Change?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ax1-vP-D7B">
                                 <rect key="frame" x="94" y="236" width="225" height="26"/>
@@ -935,6 +944,9 @@
                                 <rect key="frame" x="20" y="44" width="126" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="climate_first__2_-removebg-preview"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Ot5-vw-wt1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Fad-59-JPy"/>
@@ -948,8 +960,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="OVc-xL-qDo"/>
-        <segue reference="eA9-Dq-Rwp"/>
+        <segue reference="yjX-A0-fof"/>
+        <segue reference="UbA-Wx-E4Z"/>
+        <segue reference="jf5-HH-4uc"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2e1ax_vintage_entry_Rising-Seas-blog" width="600" height="266"/>
