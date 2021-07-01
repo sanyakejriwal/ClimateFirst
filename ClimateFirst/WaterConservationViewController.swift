@@ -16,9 +16,21 @@ class WaterConservationViewController: UIViewController {
     }
     var isClicked = false
     
+    @IBOutlet weak var fact1: UITextView!
     
+    @IBOutlet weak var fact2: UITextView!
     
-    
+    @IBAction func waterButton(_ sender: Any) {
+        if isClicked {
+            fact1.isHidden = true
+            fact2.isHidden = true
+            isClicked = false
+        } else {
+            fact1.isHidden = false
+            fact2.isHidden = false
+            isClicked = true
+        }
+    }
     
     
    

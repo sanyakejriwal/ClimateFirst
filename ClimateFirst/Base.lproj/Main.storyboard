@@ -799,10 +799,10 @@
             </objects>
             <point key="canvasLocation" x="702.89855072463774" y="924.77678571428567"/>
         </scene>
-        <!--Water Conservation Page View Controller-->
+        <!--Water Conservation View Controller-->
         <scene sceneID="WLA-WN-g0H">
             <objects>
-                <viewController id="1Wf-tN-hUm" customClass="WaterConservationPageViewController" customModule="ClimateFirst" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1Wf-tN-hUm" customClass="WaterConservationViewController" customModule="ClimateFirst" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ih7-Og-szg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -854,11 +854,18 @@
                                 <rect key="frame" x="30" y="603" width="354" height="187"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="california-drought-1020x610"/>
+                                <connections>
+                                    <action selector="waterButton:" destination="1Wf-tN-hUm" eventType="touchUpInside" id="f04-x0-At9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gze-hu-bKz"/>
                         <color key="backgroundColor" red="0.7532446384" green="0.86795067790000002" blue="0.79214864969999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="fact1" destination="n2f-08-V1F" id="jXz-aq-Qtb"/>
+                        <outlet property="fact2" destination="4A7-Pk-Pkk" id="VCh-ab-BFK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sa0-KX-SlE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
