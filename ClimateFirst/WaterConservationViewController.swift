@@ -20,6 +20,15 @@ class WaterConservationViewController: UIViewController {
     
     @IBOutlet weak var fact2: UITextView!
     
+    @IBAction func DonateButton(_ sender: Any) {
+        openUrl(urlStr: "https://www.swcs.org/")
+    }
+    func openUrl(urlStr:String!){
+        if let url = NSURL(string:urlStr){
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
+    
     @IBAction func waterButton(_ sender: Any) {
         if isClicked {
             if count == 0 {

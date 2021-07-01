@@ -22,6 +22,16 @@ class DeforestationPageViewController: UIViewController {
     
     @IBOutlet weak var fact3: UITextView!
     
+    @IBAction func DonateButton(_ sender: Any) {
+        openUrl(urlStr: "https://www.rainforestcoalition.org/donate/")
+    }
+    
+    func openUrl(urlStr:String!){
+        if let url = NSURL(string:urlStr){
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
+    
     @IBAction func deforestationPicButton(_ sender: UIButton) {
         if isClicked {
             if count == 0 {

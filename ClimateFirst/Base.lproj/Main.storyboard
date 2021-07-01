@@ -342,7 +342,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhX-bw-xUe">
-                                <rect key="frame" x="29" y="685" width="356" height="124"/>
+                                <rect key="frame" x="29" y="651" width="356" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Furthermore, pipelines are a risk to the people that live by them. If the pipeline were to fail their water source could be contaminated. 
@@ -352,7 +352,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Failure to maintain the pipelines can lead to oil spills which directly affects the animals and their habitat" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6T-3L-XHE">
-                                <rect key="frame" x="29" y="444" width="356" height="108"/>
+                                <rect key="frame" x="29" y="410" width="356" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.0" green="0.14117647059999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
@@ -372,7 +372,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3QN-Kh-M3c">
-                                <rect key="frame" x="51" y="255" width="312" height="159"/>
+                                <rect key="frame" x="51" y="230" width="312" height="159"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="daplImage"/>
                                 <connections>
@@ -380,7 +380,7 @@
                                 </connections>
                             </button>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86H-ag-vPl">
-                                <rect key="frame" x="29" y="535" width="356" height="142"/>
+                                <rect key="frame" x="29" y="501" width="356" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Pipelines also affect the climate. The EPA found that because more pipless are built more oil is extracted. Which means more greenhouse gases are released. </string>
@@ -388,6 +388,18 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMZ-WU-MI4">
+                                <rect key="frame" x="140" y="799" width="134" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
+                                <state key="normal" title="Donate">
+                                    <color key="titleColor" red="0.75724583860000005" green="0.8678765893" blue="0.79214864969999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="DonateButton:" destination="laS-X1-GYc" eventType="touchUpInside" id="4CO-ve-csQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lGC-BG-YdC"/>
                         <color key="backgroundColor" red="0.77647058823529413" green="0.86274509803921573" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -648,14 +660,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rising Sea Levels Facts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tye-G7-qx5">
-                                <rect key="frame" x="47" y="162" width="321" height="41"/>
+                                <rect key="frame" x="47" y="144" width="321" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9H-PS-8FV">
-                                <rect key="frame" x="52" y="211" width="311" height="183"/>
+                                <rect key="frame" x="52" y="193" width="311" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Global sea level rose about 8 inches (20 centimeters) in the last century. This rate has been increasing exponentially over the last century
 </string>
@@ -664,7 +676,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgQ-na-SxQ">
-                                <rect key="frame" x="49" y="363" width="316" height="252"/>
+                                <rect key="frame" x="49" y="345" width="316" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text"> As the climate changes, droughts, floods, melting glaciers, sea-level rise and storms intensify.
 </string>
@@ -673,7 +685,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YSB-jM-Tjy">
-                                <rect key="frame" x="42" y="488" width="331" height="163"/>
+                                <rect key="frame" x="42" y="470" width="331" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">In urban settings along coastlines around the world, rising seas threaten infrastructure necessary for local jobs and regional industries. </string>
                                 <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -694,11 +706,23 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaX-J3-uOq">
-                                <rect key="frame" x="45" y="668" width="324" height="155"/>
+                                <rect key="frame" x="54" y="632" width="306" height="145"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="2e1ax_vintage_entry_Rising-Seas-blog"/>
                                 <connections>
                                     <action selector="seaLevelsPicButton:" destination="dyU-ak-WG2" eventType="touchUpInside" id="2s9-QH-Nb0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dd8-lT-0Uy">
+                                <rect key="frame" x="140" y="814" width="134" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                <state key="normal" title="Donate">
+                                    <color key="titleColor" red="0.73001438380000006" green="0.87197238210000005" blue="0.78430426119999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="DonateButton:" destination="dyU-ak-WG2" eventType="touchUpInside" id="2Hu-41-jLP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -732,21 +756,21 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Deforestation Facts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="350-qf-GlC">
-                                <rect key="frame" x="70" y="150" width="275" height="41"/>
+                                <rect key="frame" x="72" y="141" width="275" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="More than half the world’s tropical forests have been destroyed since the 1960s" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecs-Kx-Wew">
-                                <rect key="frame" x="52" y="397" width="311" height="183"/>
+                                <rect key="frame" x="51" y="371" width="311" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGB-yY-Y4u">
-                                <rect key="frame" x="50" y="506" width="316" height="252"/>
+                                <rect key="frame" x="49" y="469" width="316" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">There are many reasons why deforestation happens, including clearing fields for agriculture, timber, and infrastructure development</string>
                                 <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -754,7 +778,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iOH-bl-njH">
-                                <rect key="frame" x="43" y="671" width="331" height="303"/>
+                                <rect key="frame" x="41" y="627" width="331" height="303"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The loss of trees and other vegetation can cause flooding, increased greenhouse gases, and many problems for indigenous people and animals
 </string>
@@ -776,11 +800,23 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akf-5z-Lwm">
-                                <rect key="frame" x="50" y="199" width="308" height="173"/>
+                                <rect key="frame" x="53" y="190" width="308" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="forest-lungs-1"/>
                                 <connections>
                                     <action selector="deforestationPicButton:" destination="sks-5k-T7u" eventType="touchUpInside" id="k2W-ox-m4K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5t-m0-AVL">
+                                <rect key="frame" x="139" y="814" width="134" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                <state key="normal" title="Donate">
+                                    <color key="titleColor" red="0.73001438380000006" green="0.87197238210000005" blue="0.78430426119999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="DonateButton:" destination="sks-5k-T7u" eventType="touchUpInside" id="S1G-th-lbR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -813,14 +849,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="A recent study found that 4.8 billion people will be at risk due to water stress by 2050 if business-as-usual persists." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2f-08-V1F">
-                                <rect key="frame" x="27" y="227" width="361" height="132"/>
+                                <rect key="frame" x="27" y="198" width="361" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4A7-Pk-Pkk">
-                                <rect key="frame" x="27" y="367" width="361" height="199"/>
+                                <rect key="frame" x="27" y="338" width="361" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The World Economic Forum ranked water crises as number one in its 2015 assessment of global risks, with potential to cause damaging economic and social impacts across entire countries and sectors.</string>
                                 <color key="textColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -849,11 +885,23 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsM-KA-lc7">
-                                <rect key="frame" x="30" y="603" width="354" height="187"/>
+                                <rect key="frame" x="30" y="560" width="354" height="187"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="california-drought-1020x610"/>
                                 <connections>
                                     <action selector="waterButton:" destination="1Wf-tN-hUm" eventType="touchUpInside" id="f04-x0-At9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5Q-xA-ZIL">
+                                <rect key="frame" x="140" y="800" width="134" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.070588235289999995" green="0.14901960780000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
+                                <state key="normal" title="Donate">
+                                    <color key="titleColor" red="0.73001438380000006" green="0.87197238210000005" blue="0.78430426119999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="DonateButton:" destination="1Wf-tN-hUm" eventType="touchUpInside" id="JXx-Hc-9gd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -968,9 +1016,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qAC-Nm-Bzd"/>
+        <segue reference="dfX-R1-Lds"/>
         <segue reference="ikY-8v-3xV"/>
-        <segue reference="Vb2-NA-JSe"/>
+        <segue reference="r0C-Wp-Ns9"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2e1ax_vintage_entry_Rising-Seas-blog" width="600" height="266"/>

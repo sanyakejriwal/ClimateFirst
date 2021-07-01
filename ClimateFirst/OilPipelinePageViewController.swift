@@ -19,6 +19,15 @@ class OilPipelinePageViewController: UIViewController {
     @IBOutlet weak var fact1: UITextView!
     @IBOutlet weak var fact2: UITextView!
     @IBOutlet weak var fact3: UITextView!
+    @IBAction func DonateButton(_ sender: Any) {
+        openUrl(urlStr: "https://itif.org/champion-innovation-support-itif")
+    }
+    
+    func openUrl(urlStr:String!){
+        if let url = NSURL(string:urlStr){
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
     @IBAction func oilPipelineButton(_ sender: UIButton) {
         if isClicked {
             if count == 0 {

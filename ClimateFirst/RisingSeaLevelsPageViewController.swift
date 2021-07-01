@@ -24,6 +24,16 @@ class RisingSeaLevelsPageViewController: UIViewController {
     
     @IBOutlet weak var fact3: UITextView!
     
+    @IBAction func DonateButton(_ sender: Any) {
+        openUrl(urlStr: "https://www.catf.us/donate/")
+    }
+    
+    func openUrl(urlStr:String!){
+        if let url = NSURL(string:urlStr){
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
+    
     @IBAction func seaLevelsPicButton(_ sender: UIButton) {
         if isClicked {
             if count == 0 {
