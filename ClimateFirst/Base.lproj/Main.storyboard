@@ -175,7 +175,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76626521349999999" green="0.86029666660000004" blue="0.79623752830000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="23"/>
-                                <state key="normal" title="Climate Change Basics!">
+                                <state key="normal" title="Climate Change Basics">
                                     <color key="titleColor" red="0.0" green="0.14117647058823529" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -1016,7 +1016,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="X7O-aO-G3m"/>
         <segue reference="dfX-R1-Lds"/>
         <segue reference="kqR-Nl-RRl"/>
         <segue reference="Ot5-vw-wt1"/>
